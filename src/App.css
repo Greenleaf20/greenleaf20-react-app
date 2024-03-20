@@ -6,8 +6,16 @@
   margin-top: 0px !important;
 }
 
+.route-outer {
+  margin: 0px 0px 30px 0px;
+}
+
 #about {
   text-align: justify;
+}
+
+.about-class {
+  font-size: 18px;
 }
 
 .sticky {

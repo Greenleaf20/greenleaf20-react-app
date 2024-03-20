@@ -1,6 +1,6 @@
 function Education() {
     return (
-        <div>
+        <div className="route-outer">
             <h2 className="heading" id="education">Education</h2><hr/>
             <div className="d-flex justify-content-between">
                 <div className="d-flex">
@@ -73,6 +73,14 @@ function Education() {
                     </div>
                 </div>
                 </div>
+            </div>
+
+            <h2 class="" id="academic">Academic Experience</h2><hr/>
+            <div class="d-flex justify-content-between">
+            <div class="d-flex">    
+                <h5 class="pe-1">Grading Assistant </h5> - CS 520: Theory and Practice of Software Engineering
+            </div>
+            <em>Feb '24 - May '24</em>
             </div>
         </div>
     );
