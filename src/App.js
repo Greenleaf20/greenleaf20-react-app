@@ -3,6 +3,7 @@ import { Link, Navigate, Route, Routes } from 'react-router-dom';
 import About from './components/About';
 import Education from './components/Education';
 import Experience from './components/Experience';
+import Projects from './components/Projects';
 
 function App() {
   return (
@@ -20,7 +21,7 @@ function App() {
               <a className="nav-link button trans" href="/experience">Experience</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link button trans" href="#projects">Projects</a>
+              <a className="nav-link button trans" href="/projects">Projects</a>
             </li>
             <li className="nav-item">
               <a className="nav-link button trans" href="files/Archana_Ganesh_Resume.pdf" target="_blank" rel="noreferrer">Resume</a>
@@ -60,6 +61,7 @@ function App() {
               <Route path='/about' exact className="nav-link active button trans" Component={About}/>
               <Route path='/education' exact className="nav-link active button trans" Component={Education}/>
               <Route path='/experience' exact className="nav-link active button trans" Component={Experience}/>
+              <Route path='/projects' exact className="nav-link active button trans" Component={Projects}/>
             </Routes>
           </div>
         </div>
