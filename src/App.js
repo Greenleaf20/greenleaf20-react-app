@@ -1,5 +1,7 @@
 import './App.css';
-import { Link } from 'react-router-dom';
+import { Link, Navigate, Route, Routes } from 'react-router-dom';
+import About from './components/About';
+import Education from './components/Education';
 
 function App() {
   return (
@@ -52,7 +54,11 @@ function App() {
             <hr className="d-sm-none"/>
           </div>
           <div className="col-sm-9 ms-5">
-            <Link to=""></Link>
+            <Routes>
+              <Route path="/" element={<Navigate to="/about" />} />
+              <Route path='/about' exact className="nav-link active button trans" Component={About}/>
+              <Route path='/education' exact className="nav-link active button trans" Component={Education}/>
+            </Routes>
           </div>
         </div>
       </div>
