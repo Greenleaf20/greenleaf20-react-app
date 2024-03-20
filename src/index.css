@@ -1,0 +1,24 @@
+a.text-secondary {
+  color: rgb(33, 37, 41) !important;
+}
+
+.theme-text {
+  color: #C0C0C0;
+}
+
+.form-switch .form-check-input:checked {
+  background-color: #838996;
+}
+
+.dark-mode .navbar {
+  background-color: #0e1111 !important;
+}
+
+.dark-mode {
+  background-color: rgb(33, 37, 41) !important;
+  color: #a9a9a9;
+}
+
+.dark-mode a.text-secondary {
+  color: #C0C0C0 !important;
+}
