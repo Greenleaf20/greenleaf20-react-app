@@ -4,7 +4,7 @@ function Education() {
             <h2 className="heading" id="education">Education</h2><hr/>
             <div className="d-flex justify-content-between">
                 <div className="d-flex">
-                <img src="/assets/images/logos/umass.png" alt="UMass Amherst" className="company-icon" /> 
+                <img src="/assets/images/logos/umass.png" alt="UMass Amherst" className="company-icon"/> 
                 <div className="d-flex ms-2">
                     <h5>University of Massachusetts Amherst</h5>
                 </div>
@@ -14,7 +14,7 @@ function Education() {
             <div className="container">
                 <div className="row">
                 <div className="col-6">
-                    <img src="/assets/images/university/umass.jpeg" className="university-img left-align-media"/>
+                    <img src="/assets/images/university/umass.jpeg" alt="UMass Amherst" className="university-img left-align-media"/>
                 </div>
                 <div className="col-6">
                     <div className="coursework">
@@ -27,7 +27,7 @@ function Education() {
     
             <div className="d-flex justify-content-between">
                 <div className="d-flex">
-                <img src="/assets/images/logos/nitt.png" alt="NITT Trichy" className="company-icon" /> 
+                <img src="/assets/images/logos/nitt.png" alt="NIT Trichy" className="company-icon" /> 
                 <div className="d-flex ms-2">
                     <h5>National Institute of Technology Tiruchirappalli</h5>
                 </div>
@@ -46,14 +46,14 @@ function Education() {
                     </div>
                 </div>
                 <div className="col-6">
-                    <img src="/assets/images/university/nitt.jpeg" className="university-img-portrait"/>
+                    <img src="/assets/images/university/nitt.jpeg" alt="NIT Trichy" className="university-img-portrait"/>
                 </div>
                 </div>
             </div>
     
             <div className="d-flex justify-content-between">
                 <div className="d-flex">
-                <img src="/assets/images/logos/jawahar.png" alt="UMass Amherst" className="company-icon" /> 
+                <img src="/assets/images/logos/jawahar.png" alt="Jawahar" className="company-icon" /> 
                 <div className="d-flex ms-2">
                     <h5>Jawahar Higher Secondary School (CBSE) Neyveli</h5>
                 </div>
@@ -63,7 +63,7 @@ function Education() {
             <div className="container">
                 <div className="row">
                 <div className="col-6">
-                    <img src="/assets/images/university/high-school.jpg" className="university-img left-align-media"/>
+                    <img src="/assets/images/university/high-school.jpg" alt="Jawahar" className="university-img left-align-media"/>
                 </div>
                 <div className="col-6">
                     <div className="coursework">

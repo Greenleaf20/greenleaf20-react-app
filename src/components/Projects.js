@@ -5,7 +5,7 @@ function Projects() {
             <div className="d-flex justify-content-between">
             <div className="d-flex">    
                 <h5>ToneSense 
-                <a href="https://github.com/Greenleaf20/ToneSense" target="_blank" rel="noreferrer"><img src="/assets/images/projects/Github-Logo-No-Background.png" className="repo-img"/></a>
+                <a href="https://github.com/Greenleaf20/ToneSense" target="_blank" rel="noreferrer"><img src="/assets/images/projects/Github-Logo-No-Background.png" className="repo-img" alt="Github logo"/></a>
                 </h5>
             </div>
             <em>Feb '24</em>
@@ -14,7 +14,7 @@ function Projects() {
             <div className="row">
                 <div className="col-6">
                 <div className="video-container left-align-media">
-                    <iframe width="420" height="315"
+                    <iframe width="420" height="315" title="tonesense"
                     src="https://www.youtube.com/embed/ScrEfHBbiIw?mute=1">
                     </iframe>
                 </div>
@@ -40,7 +40,7 @@ function Projects() {
             <div className="d-flex justify-content-between">
             <div className="d-flex">    
                 <h5>Stock Recommendation System 
-                <a href="https://github.com/Greenleaf20/spark-stock-market-analysis" target="_blank" rel="noreferrer"><img src="/assets/images/projects/Github-Logo-No-Background.png" className="repo-img"/></a>
+                <a href="https://github.com/Greenleaf20/spark-stock-market-analysis" target="_blank" rel="noreferrer"><img src="/assets/images/projects/Github-Logo-No-Background.png" alt="Github logo" className="repo-img"/></a>
                 </h5>
             </div>
             <em>Feb '23 - May '23</em>
@@ -54,7 +54,7 @@ function Projects() {
                 </div>
                 <div className="col-6">
                 {/* <img src="images/projects/stock-prediction-dashboard.png" className="project-img right-align-media">  */}
-                <iframe width="420" height="315" className="project-img right-align-media"
+                <iframe width="420" height="315" className="project-img right-align-media" title="stock-prediction"
                     src="https://drive.google.com/file/d/1YhKnynxBedzgzpiZxm2-QTzoksC0Tsie/preview">
                 </iframe>
                 </div>
@@ -64,8 +64,8 @@ function Projects() {
             <div className="d-flex justify-content-between">
             <div className="d-flex">    
                 <h5>Elevation-based Navigation System (EleNa) 
-                <a href="https://github.com/Greenleaf20/EleNa-Frontend" target="_blank" rel="noreferrer"><img src="/assets/images/projects/Github-Logo-No-Background.png" className="repo-img"/></a> 
-                <a href="https://github.com/Greenleaf20/EleNa-Backend" target="_blank" rel="noreferrer"><img src="/assets/images/projects/Github-Logo-No-Background.png" className="repo-img"/></a>
+                <a href="https://github.com/Greenleaf20/EleNa-Frontend" target="_blank" rel="noreferrer"><img src="/assets/images/projects/Github-Logo-No-Background.png" alt="Github logo" className="repo-img"/></a> 
+                <a href="https://github.com/Greenleaf20/EleNa-Backend" target="_blank" rel="noreferrer"><img src="/assets/images/projects/Github-Logo-No-Background.png" alt="Github logo" className="repo-img"/></a>
                 </h5>
             </div>
             <em>Oct '22 - Dec '22</em>
@@ -73,7 +73,7 @@ function Projects() {
             <div className="container">
             <div className="row">
                 <div className="col-6">
-                <img src="/assets/images/projects/elena-view.png" className="project-img left-align-media"/>
+                <img src="/assets/images/projects/elena-view.png" alt="Elena view" className="project-img left-align-media"/>
                 </div>
                 <div className="col-6">
                 <div className="project-content-with-media">
@@ -86,9 +86,9 @@ function Projects() {
             <div className="d-flex justify-content-between">
             <div className="d-flex">    
                 <h5>Student Cafeteria application 
-                <a href="https://github.com/Greenleaf20/mess-application-frontend" target="_blank" rel="noreferrer"><img src="/assets/images/projects/Github-Logo-No-Background.png" className="repo-img"/></a> 
-                <a href="https://github.com/Greenleaf20/messiah-backend" target="_blank" rel="noreferrer"><img src="/assets/images/projects/Github-Logo-No-Background.png" className="repo-img"/></a>
-                <a href="files/catering-application-report.pdf" target="_blank" rel="noreferrer"><img src="/assets/images/projects/pdf-no-bg.png" className="repo-img"/></a> 
+                <a href="https://github.com/Greenleaf20/mess-application-frontend" target="_blank" rel="noreferrer"><img src="/assets/images/projects/Github-Logo-No-Background.png" className="repo-img" alt="Github logo"/></a> 
+                <a href="https://github.com/Greenleaf20/messiah-backend" target="_blank" rel="noreferrer"><img src="/assets/images/projects/Github-Logo-No-Background.png" className="repo-img" alt="Github logo" /></a>
+                <a href="files/catering-application-report.pdf" target="_blank" rel="noreferrer"><img src="/assets/images/projects/pdf-no-bg.png" className="repo-img" alt="PDF logo"/></a> 
                 </h5>
             </div>
             <em>Feb '20</em>
@@ -101,7 +101,7 @@ function Projects() {
                 </div>
                 </div>
                 <div className="col-6">
-                <img src="/assets/images/projects/mess-application/student-view/2.png" className="project-img-portrait right-align-media"/>
+                <img src="/assets/images/projects/mess-application/student-view/2.png" alt="Messiah view" className="project-img-portrait right-align-media"/>
                 </div>
             </div>
             </div>
@@ -110,8 +110,8 @@ function Projects() {
             <div className="d-flex justify-content-between">
             <div className="d-flex">    
                 <h5>Reinforcement Learning based control of ball-beam system 
-                <a href="https://ieeexplore.ieee.org/document/9342690" target="_blank" rel="noreferrer"><img src="/assets/images/projects/google-scholar-no-bg.png" className="repo-img"/></a> 
-                <a href="/assets/files/Archana_Ganesh_Publication.pdf" target="_blank" rel="noreferrer"><img src="/assets/images/projects/pdf-no-bg.png" className="repo-img"/></a> 
+                <a href="https://ieeexplore.ieee.org/document/9342690" target="_blank" rel="noreferrer"><img src="/assets/images/projects/google-scholar-no-bg.png" alt="Paper link" className="repo-img"/></a> 
+                <a href="/assets/files/Archana_Ganesh_Publication.pdf" target="_blank" rel="noreferrer"><img src="/assets/images/projects/pdf-no-bg.png" className="repo-img" alt="PDF logo" /></a> 
                 </h5>
             </div>
             <em>Jan '20 - May '20</em>
@@ -121,7 +121,7 @@ function Projects() {
             <div className="row">
                 <div className="col-6">
                 {/* <img src="images/projects/ball-beam-system.png" className="project-img left-align-media">  */}
-                <iframe width="420" height="315" className="project-img left-align-media"
+                <iframe width="420" height="315" className="project-img left-align-media" id="bbsystem" title="bbsystem"
                     src="https://drive.google.com/file/d/1z0tq2JNfl9youDE47plMrfh3eNTEtQct/preview">
                 </iframe>
                 {/* <object data="files/Archana_Ganesh_Publication.pdf" 
@@ -141,7 +141,7 @@ function Projects() {
             <div className="d-flex">    
                 <h5>
                 Genome sequence analysis using Machine Learning
-                <a href="/assets/files/genome-analysis-manuscript.pdf" target="_blank" rel="noreferrer"><img src="/assets/images/projects/pdf-no-bg.png" className="repo-img"/></a> 
+                <a href="/assets/files/genome-analysis-manuscript.pdf" target="_blank" rel="noreferrer"><img src="/assets/images/projects/pdf-no-bg.png" className="repo-img" alt="PDF logo" /></a> 
                 </h5>
             </div>
             <em>Dec '19 - May '20</em>
@@ -153,7 +153,7 @@ function Projects() {
             <div className="d-flex justify-content-between">
             <div className="d-flex">    
                 <h5> Uber Rides Analysis 
-                <a href="https://github.com/Greenleaf20/CSOE17" target="_blank" rel="noreferrer"><img src="/assets/images/projects/Github-Logo-No-Background.png" className="repo-img"/></a> 
+                <a href="https://github.com/Greenleaf20/CSOE17" target="_blank" rel="noreferrer"><img src="/assets/images/projects/Github-Logo-No-Background.png" className="repo-img" alt="Github logo" /></a> 
                 </h5>
             </div>
             <em>Oct '19</em>
@@ -187,7 +187,7 @@ function Projects() {
                 </div>
                 <div className="col-6">
                 {/* <img src="images/projects/stock-prediction-dashboard.png" className="project-img right-align-media"> */}
-                <iframe width="420" height="315" className="project-img right-align-media"
+                <iframe width="420" height="315" className="project-img right-align-media" id="pingpong" title="pingpong"
                     src="https://drive.google.com/file/d/1Pf2xXOjj4CIUUPqF0H1Ys3MLYypKkmPo/preview">
                 </iframe>
                 </div>
