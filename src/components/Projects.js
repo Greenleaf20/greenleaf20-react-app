@@ -111,7 +111,7 @@ function Projects() {
             <div className="d-flex">    
                 <h5>Reinforcement Learning based control of ball-beam system 
                 <a href="https://ieeexplore.ieee.org/document/9342690" target="_blank" rel="noreferrer"><img src="/assets/images/projects/google-scholar-no-bg.png" className="repo-img"/></a> 
-                <a href="files/Archana_Ganesh_Publication.pdf" target="_blank" rel="noreferrer"><img src="/assets/images/projects/pdf-no-bg.png" className="repo-img"/></a> 
+                <a href="/assets/files/Archana_Ganesh_Publication.pdf" target="_blank" rel="noreferrer"><img src="/assets/images/projects/pdf-no-bg.png" className="repo-img"/></a> 
                 </h5>
             </div>
             <em>Jan '20 - May '20</em>
