@@ -1,7 +1,7 @@
 function Social() {
     return (
         <div className="route-outer">
-            <h2 className="heading" id="social">Something fun about me!</h2><hr/>
+            <h2 className="heading" id="social">Something fun about me! <span className="smileface">&#128522;</span> </h2><hr/>
             <p>
                 In my free time I read a lot of <span>&#128218;</span>, especially thrillers. I have read nearly 350 books (and counting!!). 
                 One of my favorite authors is Robert Dugoni and I am a few books away from completing all his books. I am also a huge fan of legal thrillers of Michael Connelly and John Grisham. Every year I participate in the Goodreads reading challenge and one of my proudest years is 2021 when I read 61 books. Being a huge fan of the Lord of the Rings movies, I am currently reading the Tolkien's Lord of the Rings Trilogy.
