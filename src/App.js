@@ -1,5 +1,5 @@
 import './App.css';
-import { Navigate, Route, Routes } from 'react-router-dom';
+// import { Navigate, Route, Routes } from 'react-router-dom';
 import About from './components/About';
 import Education from './components/Education';
 import Experience from './components/Experience';
@@ -11,7 +11,6 @@ import { useEffect, useState } from 'react';
 function App() {
   const [darkMode, setDarkMode] = useState( () => {
     const darkmode = localStorage.getItem('darkMode');
-    console.log(darkmode)
     return darkmode ? darkmode === 'true' : true;
   });
 
@@ -23,31 +22,37 @@ function App() {
     setDarkMode(!darkMode);
   };
 
+  const [link,setLink] = useState('about');
+
+  const handleContent = (link) => {
+    setLink(link);
+  }
+
   return (
     <div className={darkMode ? "dark-mode" : ""}>
       <nav className="navbar navbar-expand-sm bg-dark navbar-dark sticky">
         <div className="container-fluid">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <a className="nav-link active button trans" href="/about">Archana Ganesh</a>
+              <span className="nav-link active button trans" onClick={()=>handleContent('about')}>Archana Ganesh</span>
             </li>
             <li className="nav-item">
-              <a className="nav-link button trans" href="/education">Education</a>
+              <span className="nav-link button trans" onClick={()=>handleContent('education')}>Education</span>
             </li>
             <li className="nav-item">
-              <a className="nav-link button trans" href="/experience">Experience</a>
+              <span className="nav-link button trans"  onClick={()=>handleContent('experience')}>Experience</span>
             </li>
             <li className="nav-item">
-              <a className="nav-link button trans" href="/projects">Projects</a>
+              <span className="nav-link button trans" onClick={()=>handleContent('projects')}>Projects</span>
             </li>
             <li className="nav-item">
               <a className="nav-link button trans" href="/assets/files/Archana_Ganesh_Resume.pdf" target="_blank" rel="noreferrer">Resume</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link button trans" href="/awards">Awards</a>
+              <span className="nav-link button trans" onClick={()=>handleContent('awards')}>Awards</span>
             </li>
             <li className="nav-item">
-              <a className="nav-link button trans" href="/social">Hobbies</a>
+              <span className="nav-link button trans" onClick={()=>handleContent('social')}>Hobbies</span>
             </li>
           </ul>
           <div className="d-flex justify-content-end align-items-center theme-slider-container">
@@ -86,15 +91,21 @@ function App() {
             <hr className="d-sm-none"/>
           </div>
           <div className="col-sm-9 ms-5">
-            <Routes>
-              <Route path="/" element={<Navigate to="/about" />} />
+            {/* <Routes>
+              <Route path="/" element={<Navigate to="${baseURL}/about" />} />
               <Route path='/about' exact className="nav-link active button trans" Component={About}/>
               <Route path='/education' exact className="nav-link active button trans" Component={Education}/>
               <Route path='/experience' exact className="nav-link active button trans" Component={Experience}/>
               <Route path='/projects' exact className="nav-link active button trans" Component={Projects}/>
               <Route path='/awards' exact className="nav-link active button trans" Component={Awards}/>
               <Route path='/social' exact className="nav-link active button trans" Component={Social}/>
-            </Routes>
+            </Routes> */}
+            {link==='about' && <About/>}
+            {link==='education' && <Education/>}
+            {link==='experience' && <Experience/>}
+            {link==='projects' && <Projects/>}
+            {link==='awards' && <Awards/>}
+            {link==='social' && <Social/>}
           </div>
         </div>
       </div>
