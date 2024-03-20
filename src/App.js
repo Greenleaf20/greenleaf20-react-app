@@ -109,7 +109,7 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="mt-4 p-1 bg-dark text-white text-center">
+      <div className="mt-5 p-1 bg-dark text-white text-center">
         <p className="made-text">Made with <span className="heart">&#9829;</span> by Archana.</p>
       </div>
     </div>

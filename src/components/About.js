@@ -45,11 +45,11 @@ function About() {
                     <img className="skill-logo" src="/assets/skills/scikit-learn.svg" alt="scikit-learn."/>
                     <img className="skill-logo" src="/assets/skills/tensorflow.svg" alt="tensorflow"/>
                 </div>
-                {/* <div className="skill-section">
+                <div className="skill-section">
                     <h5 className="skill-heading">Operating Systems</h5>
                     <img className="skill-logo" src="/assets/skills/windows.svg" alt="windows"/>
                     <img className="skill-logo" src="/assets/skills/linux.svg" alt="linux"/>
-                </div> */}
+                </div>
             </div>
             
         </div>
