@@ -1,9 +1,11 @@
 import './App.css';
-import { Link, Navigate, Route, Routes } from 'react-router-dom';
+import { Navigate, Route, Routes } from 'react-router-dom';
 import About from './components/About';
 import Education from './components/Education';
 import Experience from './components/Experience';
 import Projects from './components/Projects';
+import Awards from './components/Awards';
+import Social from './components/Social';
 
 function App() {
   return (
@@ -24,13 +26,13 @@ function App() {
               <a className="nav-link button trans" href="/projects">Projects</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link button trans" href="files/Archana_Ganesh_Resume.pdf" target="_blank" rel="noreferrer">Resume</a>
+              <a className="nav-link button trans" href="/assets/files/Archana_Ganesh_Resume.pdf" target="_blank" rel="noreferrer">Resume</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link button trans" href="#awards">Awards</a>
+              <a className="nav-link button trans" href="/awards">Awards</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link button trans" href="#social">Social</a>
+              <a className="nav-link button trans" href="/social">Social</a>
             </li>
           </ul>
           <div className="d-flex justify-content-end align-items-center theme-slider-container">
@@ -62,9 +64,14 @@ function App() {
               <Route path='/education' exact className="nav-link active button trans" Component={Education}/>
               <Route path='/experience' exact className="nav-link active button trans" Component={Experience}/>
               <Route path='/projects' exact className="nav-link active button trans" Component={Projects}/>
+              <Route path='/awards' exact className="nav-link active button trans" Component={Awards}/>
+              <Route path='/social' exact className="nav-link active button trans" Component={Social}/>
             </Routes>
           </div>
         </div>
+      </div>
+      <div className="mt-5 p-1 bg-dark text-white text-center">
+        <p className="made-text">Made with <span class="heart">&#9829;</span> by Archana.</p>
       </div>
     </div>
   );

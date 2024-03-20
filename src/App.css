@@ -231,3 +231,7 @@ img:hover {
     transform: scale(1);
   }
 }
+
+.heart {
+  color: red;
+}
