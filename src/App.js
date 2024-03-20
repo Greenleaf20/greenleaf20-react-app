@@ -32,15 +32,15 @@ function App() {
               <a className="nav-link button trans" href="/awards">Awards</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link button trans" href="/social">Social</a>
+              <a className="nav-link button trans" href="/social">Hobbies</a>
             </li>
           </ul>
-          <div className="d-flex justify-content-end align-items-center theme-slider-container">
+          {/* <div className="d-flex justify-content-end align-items-center theme-slider-container">
             <div className="form-check form-switch">
               <input className="form-check-input" type="checkbox" id="themeSwitch" defaultChecked/>
               <label className="form-check-label theme-text" htmlFor="themeSwitch" id="themeSwitchLabel">Dark</label>
             </div>
-          </div>
+          </div> */}
         </div>
       </nav>
       <div className="container mt-5">
@@ -71,7 +71,7 @@ function App() {
         </div>
       </div>
       <div className="mt-5 p-1 bg-dark text-white text-center">
-        <p className="made-text">Made with <span class="heart">&#9829;</span> by Archana.</p>
+        <p className="made-text">Made with <span className="heart">&#9829;</span> by Archana.</p>
       </div>
     </div>
   );

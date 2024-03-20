@@ -16,6 +16,30 @@
 
 .about-class {
   font-size: 18px;
+  text-align: justify;
+}
+
+.skills {
+  margin-top: 20px;
+}
+.underline-heading {
+  border-width: 3px
+}
+
+.skill-section {
+  margin-top: 10px;
+}
+
+.skill-heading {
+  margin-bottom: 15px;
+}
+
+.skill-logo {
+  margin-right: 10px;
+}
+
+.emoji {
+  margin-left: 5px;
 }
 
 .sticky {
