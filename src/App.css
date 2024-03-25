@@ -50,6 +50,7 @@
   position: sticky !important;
   top: 0;
   width: 100%;
+  z-index: 1000;
 }
 
 a.text-secondary {
@@ -206,7 +207,7 @@ a.text-secondary {
 }
 
 img:hover {
-  transform: scale(1.05);
+  transform: scale(1.1);
   transition-duration: 200ms;
 }
 
@@ -220,6 +221,7 @@ img:hover {
   animation-duration: 1s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
+  position: relative;
 }
 
 .wave:hover {
