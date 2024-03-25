@@ -28,6 +28,32 @@ function App() {
     setLink(link);
   }
 
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  };
+
+  const [showTop, setShowTop] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollTop = window.screenY|| document.documentElement.scrollTop;
+
+      if (scrollTop > 50) {
+        setShowTop(true);
+      } else {
+        setShowTop(false);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
   return (
     <div className={darkMode ? "dark-mode" : ""}>
       <nav className="navbar navbar-expand-sm bg-dark navbar-dark sticky">
@@ -109,7 +135,10 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="mt-5 p-1 bg-dark text-white text-center">
+      <div className='top-container'>
+        {showTop && <img src={darkMode ? "/assets/images/svgs/top-light.svg" : "/assets/images/svgs/top.svg"} id="backtotop" alt="Back to Top" onClick={scrollToTop} className='top'/>}
+      </div>
+      <div className="mt-5 p-1 bg-dark text-white text-center sticky-footer">
         <p className="made-text">Made with <span className="heart">&#9829;</span> by Archana.</p>
       </div>
     </div>

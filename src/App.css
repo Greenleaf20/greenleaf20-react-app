@@ -265,3 +265,16 @@ img:hover {
 .heart {
   color: red;
 }
+
+.top-container {
+  position: fixed;
+  bottom: 80px;
+  right: 20px;
+  z-index: 1001;
+  cursor: pointer;
+}
+
+.top {
+  height: 30px;
+  width: 30px;
+}
