@@ -18,11 +18,12 @@ function Social() {
             <img className="social-pics-l" alt="animal welfare club" src="/assets/images/social/animal-welfare-club.jpg"/>
             </div>
             <p>
-                I am amazed by <span>&#129429;</span> and am a huge fan of the Jurassic Park and Jurassic World franchise. I visited the Dinosaur Footprints in Massachusetts which were left by some of the earliest known dinosaurs in the Connecticut River Valley region. Below is a picture of me at the historic area and at the North Carolina  museum of natural sciences with a T-Rex.
+                I am amazed by <span>&#129429;</span> and am a huge fan of the Jurassic Park and Jurassic World franchise. I visited the Dinosaur Footprints in Massachusetts which were left by some of the earliest known dinosaurs in the Connecticut River Valley region. Below is a picture of me at the historic area and at the North Carolina museum of natural sciences with a T-Rex. Also a picture of me with an Allosaurus at the American Museum of Natural History.
             </p>
             <div className="social-pics-div">
             <img className="social-pics-p" alt="NC museum of natural science" src="/assets/images/social/nc-museum.jpeg"/>
             <img className="social-pics-p" alt="dino footprint reservation" src="/assets/images/social/dino-footprint.jpeg"/>
+            <img className="social-pics-l" alt="dino footprint reservation" src="/assets/images/social/archana-american-museum.jpeg"/>
             </div>
         </div>
     );

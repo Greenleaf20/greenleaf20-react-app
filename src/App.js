@@ -34,25 +34,25 @@ function App() {
         <div className="container-fluid">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <span className="nav-link active button trans" onClick={()=>handleContent('about')}>Archana Ganesh</span>
+              <span className="nav-link active button trans tab-link" onClick={()=>handleContent('about')}>Archana Ganesh</span>
             </li>
             <li className="nav-item">
-              <span className="nav-link button trans" onClick={()=>handleContent('education')}>Education</span>
+              <span className="nav-link button trans tab-link" onClick={()=>handleContent('education')}>Education</span>
             </li>
             <li className="nav-item">
-              <span className="nav-link button trans"  onClick={()=>handleContent('experience')}>Experience</span>
+              <span className="nav-link button trans tab-link"  onClick={()=>handleContent('experience')}>Experience</span>
             </li>
             <li className="nav-item">
-              <span className="nav-link button trans" onClick={()=>handleContent('projects')}>Projects</span>
+              <span className="nav-link button trans tab-link" onClick={()=>handleContent('projects')}>Projects</span>
             </li>
             <li className="nav-item">
               <a className="nav-link button trans" href="/assets/files/Archana_Ganesh_Resume.pdf" target="_blank" rel="noreferrer">Resume</a>
             </li>
             <li className="nav-item">
-              <span className="nav-link button trans" onClick={()=>handleContent('awards')}>Awards</span>
+              <span className="nav-link button trans tab-link" onClick={()=>handleContent('awards')}>Awards</span>
             </li>
             <li className="nav-item">
-              <span className="nav-link button trans" onClick={()=>handleContent('social')}>Hobbies</span>
+              <span className="nav-link button trans tab-link" onClick={()=>handleContent('social')}>Hobbies</span>
             </li>
           </ul>
           <div className="d-flex justify-content-end align-items-center theme-slider-container">

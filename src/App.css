@@ -2,6 +2,10 @@
   margin-bottom: 1.5%;
 }
 
+.tab-link {
+  cursor: pointer;
+}
+
 .theme-slider-container {
   margin-top: 0px !important;
 }
@@ -43,7 +47,7 @@
 }
 
 .sticky {
-  position: sticky;
+  position: sticky !important;
   top: 0;
   width: 100%;
 }
@@ -192,17 +196,17 @@ a.text-secondary {
 .social-pics-p {
   width: 425px;
   height: 500px;
-  margin: 5px 30px 5px 0px;
+  margin: 10px 30px 5px 0px;
 }
 
 .social-pics-l {
   width: 475px;
   height: 400px;
-  margin: 5px 30px 5px 0px;
+  margin: 10px 30px 5px 0px;
 }
 
 img:hover {
-  transform: scale(1.5);
+  transform: scale(1.05);
   transition-duration: 200ms;
 }
 
