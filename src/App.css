@@ -278,3 +278,7 @@ img:hover {
   height: 30px;
   width: 30px;
 }
+
+.dark-mode .footer {
+  background-color: #0e1111 !important;
+}

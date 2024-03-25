@@ -138,7 +138,7 @@ function App() {
       <div className='top-container'>
         {showTop && <img src={darkMode ? "/assets/images/svgs/top-light.svg" : "/assets/images/svgs/top.svg"} id="backtotop" alt="Back to Top" onClick={scrollToTop} className='top'/>}
       </div>
-      <div className="mt-5 p-1 bg-dark text-white text-center sticky-footer">
+      <div className="mt-5 p-1 bg-dark text-white text-center footer">
         <p className="made-text">Made with <span className="heart">&#9829;</span> by Archana.</p>
       </div>
     </div>
