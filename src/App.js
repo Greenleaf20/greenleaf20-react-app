@@ -41,7 +41,7 @@ function App() {
     const handleScroll = () => {
       const scrollTop = window.screenY|| document.documentElement.scrollTop;
 
-      if (scrollTop > 50) {
+      if (scrollTop > 10) {
         setShowTop(true);
       } else {
         setShowTop(false);
