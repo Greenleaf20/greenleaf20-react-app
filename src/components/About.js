@@ -10,45 +10,55 @@ function About() {
                 <hr className="underline-heading"/>
                 <div className="skill-section">
                     <h5 className="skill-heading">Languages</h5>
-                    <img className="skill-logo" src="/assets/skills/cpp.svg" alt="cpp"/>
-                    <img className="skill-logo" src="/assets/skills/python.svg" alt="python"/>
-                    <img className="skill-logo" src="/assets/skills/html.svg" alt="html"/>
-                    <img className="skill-logo" src="/assets/skills/css.svg" alt="css"/>
-                    <img className="skill-logo" src="/assets/skills/java.svg" alt="java"/>
-                    <img className="skill-logo" src="/assets/skills/js.svg" alt="js"/>
-                    <img className="skill-logo" src="/assets/skills/ts.svg" alt="ts"/>
-                    <img className="skill-logo" src="/assets/skills/c.svg" alt="c"/>
+                    <div className="skill-logo-container">
+                        <img className="skill-logo" src="/assets/skills/cpp.svg" alt="cpp"/>
+                        <img className="skill-logo" src="/assets/skills/python.svg" alt="python"/>
+                        <img className="skill-logo" src="/assets/skills/html.svg" alt="html"/>
+                        <img className="skill-logo" src="/assets/skills/css.svg" alt="css"/>
+                        <img className="skill-logo" src="/assets/skills/java.svg" alt="java"/>
+                        <img className="skill-logo" src="/assets/skills/js.svg" alt="js"/>
+                        <img className="skill-logo" src="/assets/skills/ts.svg" alt="ts"/>
+                        <img className="skill-logo" src="/assets/skills/c.svg" alt="c"/>
+                    </div>
                 </div>
                 <div className="skill-section">
                     <h5 className="skill-heading">Frameworks/Libraries</h5>
-                    <img className="skill-logo" src="/assets/skills/angular.svg" alt="angular"/>
-                    <img className="skill-logo" src="/assets/skills/react.svg" alt="react"/>
-                    <img className="skill-logo" src="/assets/skills/spring.svg" alt="spring"/>
-                    <img className="skill-logo" src="/assets/skills/bootstrap.svg" alt="bootstrap"/>
-                    <img className="skill-logo" src="/assets/skills/git.svg" alt="git"/>
-                    <img className="skill-logo" src="/assets/skills/single-spa.svg" alt="single-spa"/>
-                    <img className="skill-logo" src="/assets/skills/gradle.svg" alt="gradle"/>
-                    <img className="skill-logo" src="/assets/skills/maven.svg" alt="maven"/>
-                    <img className="skill-logo" src="/assets/skills/spark.svg" alt="spark"/>
+                    <div className="skill-logo-container">
+                        <img className="skill-logo" src="/assets/skills/angular.svg" alt="angular"/>
+                        <img className="skill-logo" src="/assets/skills/react.svg" alt="react"/>
+                        <img className="skill-logo" src="/assets/skills/spring.svg" alt="spring"/>
+                        <img className="skill-logo" src="/assets/skills/bootstrap.svg" alt="bootstrap"/>
+                        <img className="skill-logo" src="/assets/skills/git.svg" alt="git"/>
+                        <img className="skill-logo" src="/assets/skills/single-spa.svg" alt="single-spa"/>
+                        <img className="skill-logo" src="/assets/skills/gradle.svg" alt="gradle"/>
+                        <img className="skill-logo" src="/assets/skills/maven.svg" alt="maven"/>
+                        <img className="skill-logo" src="/assets/skills/spark.svg" alt="spark"/>
+                    </div>
                 </div>
                 <div className="skill-section">
                     <h5 className="skill-heading">Databases</h5>
-                    <img className="skill-logo" src="/assets/skills/mysql.svg" alt="mysql"/>
-                    <img className="skill-logo" src="/assets/skills/postgres.svg" alt="postgres"/>
+                    <div className="skill-logo-container">
+                        <img className="skill-logo" src="/assets/skills/mysql.svg" alt="mysql"/>
+                        <img className="skill-logo" src="/assets/skills/postgres.svg" alt="postgres"/>
+                    </div>
                 </div>
                 <div className="skill-section">
                     <h5 className="skill-heading">Machine Learning</h5>
-                    <img className="skill-logo" src="/assets/skills/matplotlib.svg" alt="matplotlib"/>
-                    <img className="skill-logo" src="/assets/skills/numpy.svg" alt="numpy"/>
-                    <img className="skill-logo" src="/assets/skills/pandas.svg" alt="pandas"/>
-                    <img className="skill-logo" src="/assets/skills/pytorch.svg" alt="pytorch"/>
-                    <img className="skill-logo" src="/assets/skills/scikit-learn.svg" alt="scikit-learn."/>
-                    <img className="skill-logo" src="/assets/skills/tensorflow.svg" alt="tensorflow"/>
+                    <div className="skill-logo-container">
+                        <img className="skill-logo" src="/assets/skills/matplotlib.svg" alt="matplotlib"/>
+                        <img className="skill-logo" src="/assets/skills/numpy.svg" alt="numpy"/>
+                        <img className="skill-logo" src="/assets/skills/pandas.svg" alt="pandas"/>
+                        <img className="skill-logo" src="/assets/skills/pytorch.svg" alt="pytorch"/>
+                        <img className="skill-logo" src="/assets/skills/scikit-learn.svg" alt="scikit-learn."/>
+                        <img className="skill-logo" src="/assets/skills/tensorflow.svg" alt="tensorflow"/>
+                    </div>
                 </div>
                 <div className="skill-section">
                     <h5 className="skill-heading">Operating Systems</h5>
-                    <img className="skill-logo" src="/assets/skills/windows.svg" alt="windows"/>
-                    <img className="skill-logo" src="/assets/skills/linux.svg" alt="linux"/>
+                    <div className="skill-logo-container">
+                        <img className="skill-logo" src="/assets/skills/windows.svg" alt="windows"/>
+                        <img className="skill-logo" src="/assets/skills/linux.svg" alt="linux"/>
+                    </div>
                 </div>
             </div>
             

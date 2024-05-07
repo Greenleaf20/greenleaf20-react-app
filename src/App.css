@@ -2,6 +2,12 @@
   margin-bottom: 1.5%;
 }
 
+.info-class {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
 .tab-link {
   cursor: pointer;
 }
@@ -36,6 +42,11 @@
 
 .skill-heading {
   margin-bottom: 15px;
+}
+
+.skill-logo-container {
+  display: flex;
+  align-items: center;
 }
 
 .skill-logo {
