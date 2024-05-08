@@ -121,6 +121,8 @@ a.text-secondary {
 
 .awards-div {
   margin: 30px 0px 30px 0px;
+  display: flex;
+  align-items: center;
 }
 
 .top-word {
@@ -203,6 +205,8 @@ a.text-secondary {
 
 .social-pics-div {
   margin: 30px 0px 30px 0px;
+  display: flex;
+  align-items: center;
 }
 
 .social-pics-p {
