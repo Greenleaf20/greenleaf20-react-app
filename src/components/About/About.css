@@ -1,0 +1,58 @@
+.wave {
+    display: inline-block;
+    animation-name: wave-animation;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    position: relative;
+}
+  
+.wave:hover {
+    animation-play-state: paused;
+}
+  
+@keyframes wave-animation {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(15deg); }
+    50% { transform: rotate(0deg); }
+    75% { transform: rotate(-15deg); }
+    100% { transform: rotate(0deg); }
+}
+
+#about {
+    text-align: justify;
+}
+  
+.about-class {
+    font-size: 17px;
+    text-align: justify;
+}
+
+.emoji {
+    margin-left: 5px;
+}
+  
+.skills {
+    margin-top: 20px;
+}
+  
+.underline-heading {
+    border-width: 3px
+}
+  
+.skill-section {
+    margin-top: 10px;
+}
+  
+.skill-heading {
+    margin-bottom: 15px;
+}
+  
+.skill-logo-container {
+    display: flex;
+    align-items: center;
+}
+  
+.skill-logo {
+    margin-right: 10px;
+}

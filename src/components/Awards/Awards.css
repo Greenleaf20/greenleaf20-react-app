@@ -1,0 +1,11 @@
+.award {
+    width: 450px;
+    height: 350px;
+    margin: 5px 30px 5px 0px;
+}
+  
+.awards-div {
+    margin: 30px 0px 30px 0px;
+    display: flex;
+    align-items: center;
+}

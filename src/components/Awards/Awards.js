@@ -1,3 +1,5 @@
+import './Awards.css';
+
 function Awards() {
     return (
         <div className="route-outer">

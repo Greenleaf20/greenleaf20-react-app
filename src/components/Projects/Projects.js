@@ -1,3 +1,5 @@
+import './Projects.css';
+
 function Projects() {
     return (
         <div className="route-outer">

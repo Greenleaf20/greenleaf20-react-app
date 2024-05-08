@@ -1,11 +1,11 @@
 import './App.css';
 // import { Navigate, Route, Routes } from 'react-router-dom';
-import About from './components/About';
-import Education from './components/Education';
-import Experience from './components/Experience';
-import Projects from './components/Projects';
-import Awards from './components/Awards';
-import Social from './components/Social';
+import About from './components/About/About';
+import Education from './components/Education/Education';
+import Experience from './components/Experience/Experience';
+import Projects from './components/Projects/Projects';
+import Awards from './components/Awards/Awards';
+import Social from './components/Social/Social';
 import { useEffect, useState } from 'react';
 
 function App() {

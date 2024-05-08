@@ -1,3 +1,5 @@
+import './Social.css';
+
 function Social() {
     return (
         <div className="route-outer">
