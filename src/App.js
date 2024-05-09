@@ -65,8 +65,8 @@ function App() {
   }, []);
 
   const over = () => {
-    showImage1(false);
     showImage2(true);
+    showImage1(false);
   }
 
   const out = () => {
