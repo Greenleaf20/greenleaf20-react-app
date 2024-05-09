@@ -4,6 +4,20 @@ function Projects() {
     return (
         <div className="route-outer">
             <h2 className="heading" id="projects">Projects</h2><hr/>      
+
+            <div className='panel-item'>
+                <div className="d-flex justify-content-between">
+                    <div className="d-flex">    
+                        <h5>Personal Website</h5>
+                        <a href="https://github.com/Greenleaf20/greenleaf20-react-app" target="_blank" rel="noreferrer"><img src="/assets/images/projects/Github-Logo-No-Background.png" alt="Github logo" className="repo-img"/></a>
+                    </div>
+                    <em>Mar '24 - May '24</em>
+                </div>
+                <div className="project-content">
+                I designed and developed a personal website using ReactJS, HTML, CSS, JavaScript and Tailwind CSS. This platform not only showcases my technical skills but also reflects my personality. Through intuitive design and engaging content, viewers can delve into my experience and education, as well as about my hobbies and interests.
+                </div>
+            </div>
+
             <div className='panel-item'>
                 <div className="d-flex justify-content-between">
                     <div className="d-flex">    
