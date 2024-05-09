@@ -4,7 +4,7 @@
 }
 
 .university-img-portrait {
-    margin: 20px 0px 10px 100px;
+    margin: 20px 0px 30px 0px;
     width: 400px;
     height: 475px;
 }
@@ -13,4 +13,8 @@
     margin: 20px 0px 30px 0px;
     width: 400px;
     height: 300px;
+}
+
+.education-col {
+    padding: 0px !important;
 }

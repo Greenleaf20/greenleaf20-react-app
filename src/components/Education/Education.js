@@ -15,13 +15,13 @@ function Education() {
             </div>
             <div className="container">
                 <div className="row">
-                    <div className="col-6">
+                    <div className="col-6 education-col">
                         <div className="coursework">
                             <b>Master of Science in Computer Science</b> (GPA: 3.83 / 4.0) <br/><br/>
                             <b>Coursework:</b> Advanced Algorithms, Distributed and Operating Systems, Computer and Network Security, Theory and Practice of Software Engineering, System Defense and Test, Secure Distributed Systems, Machine Learning, Applied Information Retrieval, Systems for Data Science, Reinforcement Learning
                         </div>
                     </div>
-                    <div className="col-6">
+                    <div className="col-6 education-col">
                         <img src="/assets/images/university/umass.jpeg" alt="UMass Amherst" className="university-img right-align-media"/>
                     </div>
                 </div>
@@ -38,7 +38,7 @@ function Education() {
             </div>
             <div className="container">
                 <div className="row">
-                    <div className="col-6">
+                    <div className="col-6 education-col">
                         <div className="coursework">
                             <b>Bachelor of Technology in Instrumentation and Control Engineering</b> (GPA: 8.41 / 10.0)
                             <br/><br/>
@@ -55,7 +55,7 @@ function Education() {
                             Member of Animal Welfare Club
                         </div>
                     </div>
-                    <div className="col-6">
+                    <div className="col-6 education-col">
                         <img src="/assets/images/university/nitt.jpeg" alt="NIT Trichy" className="university-img-portrait right-align-media"/>
                     </div>
                 </div>
@@ -72,25 +72,17 @@ function Education() {
             </div>
             <div className="container">
                 <div className="row">
-                    <div className="col-6">
+                    <div className="col-6 education-col">
                         <div className="coursework">
                             94.8% in CBSE board examination conducted in 2016 and received Academic Achievement Award for the same <br/><br/>
                             Secured an All India Rank of 9858 among 1.2 million students in JEE Mains 2016 <br/><br/>
                             <b>Coursework:</b> Computer Science, Mathematics, Physics, Chemistry, English
                         </div>
                     </div>
-                    <div className="col-6">
+                    <div className="col-6 education-col">
                         <img src="/assets/images/university/high-school.jpg" alt="Jawahar" className="university-img right-align-media"/>
                     </div>
                 </div>
-            </div>
-
-            <h2 className="" id="academic">Academic Experience</h2><hr/>
-            <div className="d-flex justify-content-between">
-                <div className="d-flex">    
-                    <h5 className="pe-1">Grading Assistant </h5> - CS 520: Theory and Practice of Software Engineering
-                </div>
-                <em>Feb '24 - May '24</em>
             </div>
         </div>
     );
