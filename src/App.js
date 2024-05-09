@@ -111,7 +111,7 @@ function App() {
       </nav>
       <div className="container mt-5">
         <div className="row">
-          <div className="col-sm-2 justify-content-center left-panel" >
+          <div className="col-sm-3 justify-content-center left-panel" >
             <img className="fakeimg no-zoom" src="/assets/images/profile-pic.png" alt="Profile"/>
             <h4 className="mt-4">Archana Ganesh</h4>
             <p> 
@@ -137,7 +137,7 @@ function App() {
             </p>
             <hr className="d-sm-none"/>
           </div>
-          <div className="col-sm-9 ms-5">
+          <div className="col-sm-9">
             {/* <Routes>
               <Route path="/" element={<Navigate to="${baseURL}/about" />} />
               <Route path='/about' exact className="nav-link active button trans" Component={About}/>

@@ -73,7 +73,7 @@ a.text-secondary {
 }
 
 img:hover {
-  transform: scale(1.1);
+  transform: scale(1.005);
   transition-duration: 200ms;
 }
 
@@ -123,4 +123,25 @@ img:hover {
 
 .dark-mode .footer {
   background-color: #0e1111 !important;
+}
+
+.dark-mode .panel-item  {
+  border: 1px solid #0b0f0f;
+  box-shadow: 2px 2px #0b0f0f;
+}
+
+.panel-item  {
+  border: 1px solid #cccccc;
+  box-shadow: 2px 2px #cccccc;
+  border-radius: 5px;
+  padding: 30px;
+  margin-bottom: 40px;
+}
+
+.panel-item:hover {
+  background-color: #e5e5e5;
+}
+
+.dark-mode .panel-item:hover {
+  background-color: rgb(30, 33, 37);
 }
