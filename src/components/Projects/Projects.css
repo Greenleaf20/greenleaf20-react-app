@@ -4,6 +4,10 @@
     margin-left: 5px;
 }
 
+.project-col {
+    padding: 0px !important;
+}
+
 .project-content-with-media {
     text-align: justify;
     margin-top: 50px;

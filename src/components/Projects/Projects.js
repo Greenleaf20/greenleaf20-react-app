@@ -13,14 +13,14 @@ function Projects() {
             </div>
             <div className="container">
                 <div className="row">
-                    <div className="col-6">
+                    <div className="col-6  project-col">
                         <div className="video-container left-align-media">
                             <iframe width="420" height="315" title="tonesense"
                             src="https://www.youtube.com/embed/ScrEfHBbiIw?mute=1">
                             </iframe>
                         </div>
                     </div>
-                    <div className="col-6">
+                    <div className="col-6  project-col">
                         <div className="project-content-with-media">
                             I developed this application as a part of Hack(H)er413 2024 hackathon conducted at the University of Massachusetts Amherst. It is a web based application developed by  Angular, HTML, CSS and TypeScript to sense the sentiment behind text and audio into 28 different emotions. I used a Transformer based Wav2vec2 model for speech to text conversion and the roberta-base-go_emotions model for analyzing the sentiment behind a text.
                         </div>
@@ -47,12 +47,12 @@ function Projects() {
             </div>
             <div className="container">
                 <div className="row">
-                    <div className="col-6">
+                    <div className="col-6  project-col">
                         <div className="project-content-with-media">
                             I developed this application during the Systems for Data Science course in Spring 2023. I designed a stock recommendation system using Python that analyzes historical data using PySpark. I used LSTM, Random Forest and Factorization Machine models from SparkMLLib and PyTorch to predict the closing price of stocks. Among these the LSTM model performed the best in terms of Mean Squared Error and I used it to predict the closing price. I also built a dashboard  for the users to easily view the historical trend for each stock.
                         </div>
                     </div>
-                    <div className="col-6">
+                    <div className="col-6  project-col">
                         {/* <img src="images/projects/stock-prediction-dashboard.png" className="project-img right-align-media">  */}
                         <iframe width="420" height="315" className="project-img right-align-media" title="stock-prediction"
                             src="https://drive.google.com/file/d/1YhKnynxBedzgzpiZxm2-QTzoksC0Tsie/preview">
@@ -71,10 +71,10 @@ function Projects() {
             </div>
             <div className="container">
                 <div className="row">
-                    <div className="col-6">
+                    <div className="col-6  project-col">
                         <img src="/assets/images/projects/elena-view.png" alt="Elena view" className="project-img left-align-media"/>
                     </div>
-                    <div className="col-6">
+                    <div className="col-6  project-col">
                         <div className="project-content-with-media">
                             I developed this application during the Theory and Practice of Software Engineering course in Fall 2022. I built a navigation system using React and JavaScript to suggest the path of minimum elevation gain between locations given by the user. I implemented Dijkstra's and A* algorithms to find a path that has the minimum elevation gain within a user-specified range of the distance of the shortest path. I also designed User Interface where user can pick the locations on the map and view the chosen path. 
                         </div>
@@ -93,12 +93,12 @@ function Projects() {
             </div>
             <div className="container">
                 <div className="row">
-                    <div className="col-6">
+                    <div className="col-6  project-col">
                         <div className="project-content-with-media">
                             I developed this application during a campus wide Hackathon at the National Institute of Technology Tiruchirappalli in 2020. During this period, in the dining halls, caterers manually recorded and marked students' attendance using physical cards. This process proved inconvenient, as students occasionally forgot to bring their cards. Students consistently carried their phones, prompting us to develop a mobile application for meal check-ins at the dining halls. This not only ensured convenience for students but also facilitated easier attendance tracking for caterers. Moreover, it provided a valuable tool for analyzing food consumption patterns and minimizing wastage. I designed the application using React Native and Django. The application has a QR generator for the students and a corresponding scanner for the caterers. Both the parties had a dashboard where they can view/edit schedule correspondingly and also send/receive feedback. I also employed Holt-Winters forecasting for predicting food wastage.
                         </div>
                     </div>
-                    <div className="col-6">
+                    <div className="col-6  project-col">
                         <img src="/assets/images/projects/mess-application/student-view/2.png" alt="Messiah view" className="project-img-portrait right-align-media"/>
                     </div>
                 </div>
@@ -116,7 +116,7 @@ function Projects() {
             {/* <em className="guide-details">Guided by Prof. Dhanalakshmi K, IEEE Senior Member</em>  */}
             <div className="container">
                 <div className="row">
-                    <div className="col-6">
+                    <div className="col-6  project-col">
                     {/* <img src="images/projects/ball-beam-system.png" className="project-img left-align-media">  */}
                     <iframe width="420" height="315" className="project-img left-align-media" id="bbsystem" title="bbsystem"
                         src="https://drive.google.com/file/d/1z0tq2JNfl9youDE47plMrfh3eNTEtQct/preview">
@@ -126,7 +126,7 @@ function Projects() {
                         <img src="images/projects/pdf-no-bg.jpg" className="repo-img">
                     </object>  */}
                     </div>
-                    <div className="col-6">
+                    <div className="col-6  project-col">
                         <div className="project-content-with-media-less-space">
                             I worked on this project as part of my thesis when I pursued my Bachelor's degree in Instrumentation and Control Engineering with a minor in Computer Science. I chose this project as it is a perfect blend of both my degrees as I used Reinforcement Learning to control a ball and beam system. I developed a simulation environment of the servo based ball and beam system using Python and OpenAI gym. I trained the system using PPO2 and DDPG algorithms and was able to achieve a maximum reward of 0.99 on a scale of 0 to 1. The system was able to handle disturbances as well and was to able to stabilize. My work on this was published in the IEEE International Conference on Industrial and Information Systems in 2020.
                         </div>
