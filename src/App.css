@@ -11,6 +11,16 @@
   margin-bottom: 15px;
 }
 
+a.link-effect {
+  text-decoration: none;
+}
+
+a.link-effect:hover,
+a.link-effect:focus {
+  box-shadow: 0 1px 0 #4BAAC8;
+  transition: box-shadow 0.3s ease;
+}
+
 .tab-link {
   cursor: pointer;
 }

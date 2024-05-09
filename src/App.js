@@ -115,7 +115,7 @@ function App() {
             <img className="fakeimg no-zoom" src="/assets/images/profile-pic.png" alt="Profile"/>
             <h4 className="mt-4">Archana Ganesh</h4>
             <p> 
-              Master of Science <br/> <a href="https://www.cics.umass.edu/" className="text-secondary" target="_blank" rel="noreferrer">College of Information and Computer Sciences</a> <br/> University of Massachusetts Amherst
+              Master of Science <br/> <a href="https://www.cics.umass.edu/" className="text-secondary link-effect" target="_blank" rel="noreferrer">College of Information and Computer Sciences</a> <br/> University of Massachusetts Amherst
             </p>
             <p className="info-class">
               <img src={darkMode ? "/assets/images/svgs/location-logo-light.svg" : "/assets/images/svgs/location-logo.svg"}  id="location" alt="location" className="me-2"/>Amherst, MA, USA
@@ -124,16 +124,16 @@ function App() {
               <img src={darkMode ? "/assets/images/svgs/email-logo-light.svg" : "/assets/images/svgs/email-logo.svg"} className="me-2" id="email" alt="email" />archanaganes@umass.edu
             </p>
             <p className="info-class">
-              <img src={darkMode ? "/assets/images/svgs/linkedin-logo-light.svg" : "/assets/images/svgs/linkedin-logo.svg"}  className="me-2" id="linkedin" alt="linkedin"/><a href="https://www.linkedin.com/in/ganesh-archana/" className="text-secondary" target="_blank" rel="noreferrer">ganesh-archana</a>
+              <img src={darkMode ? "/assets/images/svgs/linkedin-logo-light.svg" : "/assets/images/svgs/linkedin-logo.svg"}  className="me-2" id="linkedin" alt="linkedin"/><a href="https://www.linkedin.com/in/ganesh-archana/" className="text-secondary link-effect" target="_blank" rel="noreferrer">ganesh-archana</a>
             </p>
             <p className="info-class">
-              <img src={darkMode ? "/assets/images/svgs/scholar-logo-light.svg" : "/assets/images/svgs/scholar-logo.svg"}  className="me-2" id="google-scholar" alt="google-scholar"/><a href="https://scholar.google.com/citations?hl=en&user=JhFxgOoAAAAJ" className="text-secondary" target="_blank" rel="noreferrer">Archana Ganesh</a>
+              <img src={darkMode ? "/assets/images/svgs/scholar-logo-light.svg" : "/assets/images/svgs/scholar-logo.svg"}  className="me-2" id="google-scholar" alt="google-scholar"/><a href="https://scholar.google.com/citations?hl=en&user=JhFxgOoAAAAJ" className="text-secondary link-effect" target="_blank" rel="noreferrer">Archana Ganesh</a>
             </p>
             <p className="info-class">
-              <img src={darkMode ? "/assets/images/svgs/github-logo-light.svg" : "/assets/images/svgs/github-logo.svg"}  className="me-2" id="github" alt="github"/><a href="https://github.com/Greenleaf20" className="text-secondary" target="_blank" rel="noreferrer">Greenleaf20</a>
+              <img src={darkMode ? "/assets/images/svgs/github-logo-light.svg" : "/assets/images/svgs/github-logo.svg"}  className="me-2" id="github" alt="github"/><a href="https://github.com/Greenleaf20" className="text-secondary link-effect" target="_blank" rel="noreferrer">Greenleaf20</a>
             </p>
             <p className="info-class">
-              <img src={darkMode ? "/assets/images/svgs/goodreads-logo-light.svg" : "/assets/images/svgs/goodreads-logo.svg"}  className="me-2" id="goodreads" alt="goodreads"/><a href="https://www.goodreads.com/_greenleaf" className="text-secondary" target="_blank" rel="noreferrer">_greenleaf</a>
+              <img src={darkMode ? "/assets/images/svgs/goodreads-logo-light.svg" : "/assets/images/svgs/goodreads-logo.svg"}  className="me-2" id="goodreads" alt="goodreads"/><a href="https://www.goodreads.com/_greenleaf" className="text-secondary link-effect" target="_blank" rel="noreferrer">_greenleaf</a>
             </p>
             <hr className="d-sm-none"/>
           </div>
