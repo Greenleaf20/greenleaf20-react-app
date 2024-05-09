@@ -5,7 +5,16 @@
 }
   
 .social-pics {
-    width: 475px;
-    height: 490px;
+    width: 400px;
+    height: 415px;
     margin: 10px 30px 5px 0px;
+}
+
+.social-heart {
+    font-size: x-large; 
+    color: red;
+}
+
+.social-text {
+    text-align: justify;
 }

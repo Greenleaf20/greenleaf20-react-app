@@ -89,6 +89,7 @@ img:hover {
   display: inline-block;
   font-size: x-large; 
   animation: heartbeat-animation 1s infinite;
+  color: red;
 }
 
 .heart:hover {
@@ -105,10 +106,6 @@ img:hover {
   100% {
     transform: scale(1);
   }
-}
-
-.heart {
-  color: red;
 }
 
 .top-container {
