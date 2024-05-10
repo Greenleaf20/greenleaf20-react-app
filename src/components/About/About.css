@@ -56,3 +56,8 @@
 .skill-logo {
     margin-right: 10px;
 }
+
+.skill-logo:hover {
+    transform: scale(1.05);
+    transition-duration: 200ms;
+}

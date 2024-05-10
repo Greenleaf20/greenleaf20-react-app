@@ -45,6 +45,14 @@ function About() {
                     </div>
                 </div>
                 <div className="skill-section">
+                    <h5 className="skill-heading">Tools</h5>
+                    <div className="skill-logo-container">
+                        <img className="skill-logo" src="/assets/skills/aws.svg" alt="aws"/>
+                        <img className="skill-logo" src="/assets/skills/docker.svg" alt="docker"/>
+                        <img className="skill-logo" src="/assets/skills/jenkins.svg" alt="jenkins"/>
+                    </div>
+                </div>
+                <div className="skill-section">
                     <h5 className="skill-heading">Machine Learning</h5>
                     <div className="skill-logo-container">
                         <img className="skill-logo" src="/assets/skills/matplotlib.svg" alt="matplotlib"/>
