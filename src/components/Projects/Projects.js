@@ -130,34 +130,7 @@ function Projects() {
                         </div>
                     </div>
                 </div>
-            </div>
-            
-            
-            <div className='panel-item'>
-                <div className="d-flex justify-content-between">
-                    <div className="d-flex">    
-                        <h5>Reinforcement Learning based control of ball-beam system </h5>
-                        <a href="https://ieeexplore.ieee.org/document/9342690" target="_blank" rel="noreferrer"><img src="/assets/images/projects/google-scholar-no-bg.png" alt="Paper link" className="repo-img"/></a> 
-                        <a href="/assets/files/Archana_Ganesh_Publication.pdf" target="_blank" rel="noreferrer"><img src="/assets/images/projects/pdf-no-bg.png" className="repo-img" alt="PDF logo" /></a> 
-                    </div>
-                    <em>Jan '20 - May '20</em>
-                </div>
-                <div className="container">
-                    <div className="row">
-                        <div className="col-6  project-col">
-                        <iframe width="420" height="315" className="project-img left-align-media" id="bbsystem" title="bbsystem"
-                            src="https://drive.google.com/file/d/1z0tq2JNfl9youDE47plMrfh3eNTEtQct/preview">
-                        </iframe>
-                        </div>
-                        <div className="col-6  project-col">
-                            <div className="project-content-with-media-less-space">
-                                I worked on this project as part of my thesis when I pursued my Bachelor's degree in Instrumentation and Control Engineering with a minor in Computer Science. I chose this project as it is a perfect blend of both my degrees as I used Reinforcement Learning to control a ball and beam system. I developed a simulation environment of the servo based ball and beam system using Python and OpenAI gym. I trained the system using PPO2 and DDPG algorithms and was able to achieve a maximum reward of 0.99 on a scale of 0 to 1. The system was able to handle disturbances as well and was to able to stabilize. My work on this was published in the IEEE International Conference on Industrial and Information Systems in 2020.
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-           
+            </div>           
             
             <div className='panel-item'>
                 <div className="d-flex justify-content-between">
@@ -172,18 +145,18 @@ function Projects() {
                 </div>
             </div>
             
-
-            {/* <div className="d-flex justify-content-between">
-                <div className="d-flex">    
-                    <h5> Uber Rides Analysis </h5>
-                    <a href="https://github.com/Greenleaf20/CSOE17" target="_blank" rel="noreferrer"><img src="/assets/images/projects/Github-Logo-No-Background.png" className="repo-img" alt="Github logo" /></a> 
+            <div className='panel-item'>
+                <div className="d-flex justify-content-between">
+                    <div className="d-flex">    
+                        <h5> Uber Rides Analysis </h5>
+                        <a href="https://github.com/Greenleaf20/CSOE17" target="_blank" rel="noreferrer"><img src="/assets/images/projects/Github-Logo-No-Background.png" className="repo-img" alt="Github logo" /></a> 
+                    </div>
+                    <em>Oct '19</em>
                 </div>
-                <em>Oct '19</em>
+                <div className="project-content">
+                    I created this application as a part of Big Data Analytics course in Fall 2019. I analyzed Uber rides data in New York City to determine how time and day influenced the frequency of the rides. I used MapReduce algorithm of Hadoop to process 4.3 million records and also used multi-threaded mapper classNamees to speed uf the process by 20%. The trends from this data could be useful for Uber and other ride-hailing services, enabling them to anticipate and optimize usage patterns effectively. 
+                </div>
             </div>
-            <div className="project-content">
-                I created this application as a part of Big Data Analytics course in Fall 2019. I analyzed Uber rides data in New York City to determine how time and day influenced the frequency of the rides. I used MapReduce algorithm of Hadoop to process 4.3 million records and also used multi-threaded mapper classNamees to speed uf the process by 20%. The trends from this data could be useful for Uber and other ride-hailing services, enabling them to anticipate and optimize usage patterns effectively. 
-            </div>
-             */}
              
             {/* <div className="d-flex justify-content-between">
                 <div className="d-flex">    

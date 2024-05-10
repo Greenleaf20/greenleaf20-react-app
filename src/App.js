@@ -7,6 +7,7 @@ import Projects from './components/Projects/Projects';
 import Awards from './components/Awards/Awards';
 import Social from './components/Social/Social';
 import { useEffect, useState } from 'react';
+import Publications from './components/Publications/Publications';
 
 function App() {
   const [darkMode, setDarkMode] = useState( () => {
@@ -92,13 +93,19 @@ function App() {
               <span className="nav-link button trans tab-link" onClick={()=>{handleContent('projects');scrollToTopOnLoad();}}>Projects</span>
             </li>
             <li className="nav-item">
-              <a className="nav-link button trans" href="/assets/files/Archana_Ganesh_Resume.pdf" target="_blank" rel="noreferrer">Resume</a>
+              <span className="nav-link button trans tab-link" onClick={()=>{handleContent('publications');scrollToTopOnLoad();}}>Publications</span>
+            </li>
+            <li className="nav-item">
+              <span className="nav-link button trans tab-link" onClick={()=>{handleContent('social');scrollToTopOnLoad();}}>Hobbies</span>
             </li>
             <li className="nav-item">
               <span className="nav-link button trans tab-link" onClick={()=>{handleContent('awards');scrollToTopOnLoad();}}>Awards</span>
             </li>
             <li className="nav-item">
               <span className="nav-link button trans tab-link" onClick={()=>{handleContent('social');scrollToTopOnLoad();}}>Hobbies</span>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link button trans" href="/assets/files/Archana_Ganesh_Resume.pdf" target="_blank" rel="noreferrer">Resume</a>
             </li>
           </ul>
           <div className="d-flex justify-content-end align-items-center theme-slider-container">
@@ -167,6 +174,7 @@ function App() {
             {link==='projects' && <Projects/>}
             {link==='awards' && <Awards/>}
             {link==='social' && <Social/>}
+            {link==='publications' && <Publications/>}
           </div>
         </div>
       </div>
