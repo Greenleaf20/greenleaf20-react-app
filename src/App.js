@@ -29,8 +29,8 @@ function App() {
     setLink(link);
   }
 
-  const [image1, showImage1] = useState(true);
-  const [image2, showImage2] = useState(false);
+  // const [image1, showImage1] = useState(true);
+  // const [image2, showImage2] = useState(false);
 
   const scrollToTop = () => {
     window.scrollTo({
@@ -65,15 +65,15 @@ function App() {
     };
   }, []);
 
-  const over = () => {
-    showImage2(true);
-    showImage1(false);
-  }
+  // const over = () => {
+  //   showImage2(true);
+  //   showImage1(false);
+  // }
 
-  const out = () => {
-    showImage1(true);
-    showImage2(false);
-  }
+  // const out = () => {
+  //   showImage1(true);
+  //   showImage2(false);
+  // }
 
   return (
     <div className={darkMode ? "dark-mode" : ""}>
@@ -132,8 +132,9 @@ function App() {
       <div className="container mt-5">
         <div className="row">
           <div className="col-sm-3 justify-content-center left-panel" >
-            {image1 && <img className="fakeimg no-zoom" src="/assets/images/profile-pic.png" alt="Profile" onMouseOver={over}/>}
-            {image2 && <img className="fakeimg no-zoom" src="/assets/images/archana2.jpg" alt="Profile" onMouseOut={out}/>}
+            <img className="fakeimg no-zoom" src="/assets/images/profile2.JPG" alt="Profile"/>
+            {/* {image1 && <img className="fakeimg no-zoom" src="/assets/images/profile-pic.png" alt="Profile" onMouseOver={over}/>}
+            {image2 && <img className="fakeimg no-zoom" src="/assets/images/archana2.jpg" alt="Profile" onMouseOut={out}/>} */}
             <h4 className="mt-4">Archana Ganesh</h4>
             <p> 
               Master of Science <br/> <a href="https://www.cics.umass.edu/" className="text-secondary link-effect" target="_blank" rel="noreferrer">College of Information and Computer Sciences</a> <br/> University of Massachusetts Amherst

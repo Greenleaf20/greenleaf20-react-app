@@ -18,12 +18,12 @@ function Education() {
                     <div className="row">
                         <div className="col-6 education-col">
                             <div className="coursework">
-                                <b>Master of Science in Computer Science</b> (GPA: 3.83 / 4.0) <br/><br/>
+                                <b>Master of Science in Computer Science</b> (GPA: 3.84 / 4.0) <br/><br/>
                                 <b>Coursework:</b> Advanced Algorithms, Distributed and Operating Systems, Computer and Network Security, Theory and Practice of Software Engineering, System Defense and Test, Secure Distributed Systems, Machine Learning, Applied Information Retrieval, Systems for Data Science, Reinforcement Learning
                             </div>
                         </div>
                         <div className="col-6 education-col">
-                            <img src="/assets/images/university/umass.jpeg" alt="UMass Amherst" className="university-img right-align-media"/>
+                            <img src="/assets/images/university/umass.JPG" alt="UMass Amherst" className="university-img right-align-media"/>
                         </div>
                     </div>
                 </div>
