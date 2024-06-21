@@ -28,7 +28,7 @@ function Experience() {
                         <img src="/assets/images/logos/citi.jpg" alt="Citi" className="company-icon" /> 
                         <div className="d-flex ms-2">
                             <h5>Citi</h5>
-                            <p className="ms-1"> - Software Developer</p>
+                            <p className="ms-1"> - Software Engineer</p>
                         </div>
                     </div>
                     <em>Aug '20 - Jul '22</em>
